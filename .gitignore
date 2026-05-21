@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pkl
+.env
+venv/
+.venv/
+
+# Data 
+data/*.csv
+
+# VS Code
+.vscode/
+
