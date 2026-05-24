@@ -19,8 +19,8 @@ FEATURE_COLS = ["HOME_OFF_RTG_ROLL10",  "AWAY_OFF_RTG_ROLL10",
     "HOME_BLK_ROLL10",      "AWAY_BLK_ROLL10",
     "HOME_PLUS_MINUS_ROLL10", "AWAY_PLUS_MINUS_ROLL10",]
 
-TRAIN_SEASONS = ["2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22"]
-TEST_SEASONS = ["2022-23", "2023-24"]
+TRAIN_SEASONS = ["2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24"]
+TEST_SEASONS = ["2024-25", "2025-26"]
 
 def load_features(path: str = "data/games_features.csv") -> pd.DataFrame:
     df = pd.read_csv(path)
