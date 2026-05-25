@@ -22,7 +22,7 @@ def fetch_all_seasons() -> pd.DataFrame:
     all_seasons = []
     for season in SEASONS:
         df = fetch_season(season)
-        df["SEASON "] = season
+        df["SEASON"] = season
         all_seasons.append(df)
     
     combined = pd.concat(all_seasons, ignore_index=True)
