@@ -88,9 +88,9 @@ def plot_results(model, scaler, X_test, y_test, y_prob, feature_cols):
     axes[2].set_ylabel("Fraction of Positives")
     axes[2].legend()
     plt.tight_layout()
-    plt.savefig("models/evalutaion.png", dpi=150)
+    plt.savefig("models/evaluation.png", dpi=150)
     plt.show()
-    print("Saved evalutaion plots to models/evaluation.png")
+    print("Saved evaluation plots to models/evaluation.png")
 
 if __name__ == "__main__":
     train()
